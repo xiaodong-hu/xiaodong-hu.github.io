@@ -1,0 +1,146 @@
+\documentclass{article}
+
+\usepackage{hyperref}
+\usepackage{geometry}
+    \geometry{
+        a4paper,
+        % total={170mm,257mm},
+        left=20mm,
+        top=20mm,
+    }
+
+% Comment the following lines to use the default Computer Modern font
+% instead of the Palatino font provided by the mathpazo package.
+% Remove the 'osf' bit if you don't like the old style figures.
+\usepackage[T1]{fontenc}
+\usepackage[sc,osf]{mathpazo}
+
+% Set your name here
+\def\name{Xiaodong Hu}
+
+% Replace this with a link to your CV if you like, or set it empty
+% (as in \def\footerlink{}) to remove the link in the footer:
+\def\footerlink{}
+
+
+% Customize page headers
+\pagestyle{myheadings}
+\markright{\name}
+\thispagestyle{empty}
+
+% Custom section fonts
+\usepackage{sectsty}
+\sectionfont{\rmfamily\mdseries\Large}
+\subsectionfont{\rmfamily\mdseries\itshape\large}
+
+% Other possible font commands include:
+% \ttfamily for teletype,
+% \sffamily for sans serif,
+% \bfseries for bold,
+% \scshape for small caps,
+% \normalsize, \large, \Large, \LARGE sizes.
+
+% Don't indent paragraphs.
+\setlength\parindent{0em}
+
+% Make lists without bullets
+\renewenvironment{itemize}{
+  \begin{list}{}{
+    \setlength{\leftmargin}{1.5em}
+  }
+}{
+  \end{list}
+}
+
+
+\pagestyle{empty} % no title
+\begin{document}
+\vspace{-2in}
+% place name at left
+{\huge\bf\name}
+\hfill\\
+
+\begin{minipage}{0.5\linewidth}
+    \begin{tabular}{ll}
+        & 330L Higgins Hall\\
+        & Boston College\\
+        & 140 Commonwealth Ave, MA 02467
+    \end{tabular}
+\end{minipage}
+\begin{minipage}{0.5\linewidth}
+  \begin{tabular}{ll}
+    Phone: & (1) 857-272-7073 \\
+    Email: & \href{mailto:xiaodong.hu@bc.edu}{\tt xiaodong.hu@bc.edu} \\
+    Homepage: & \href{https://github.com/cdqz2014}{\tt https://github.com/cdqz2014} \\
+  \end{tabular}
+\end{minipage}
+
+\makebox[\linewidth]{\rule{\linewidth}{0.4pt}}
+
+
+\section*{Education}
+\begin{minipage}{0.55\linewidth}
+    \begin{tabular}{ll}
+        & {\bf Boston College} \\
+        & 2018-2024 (expected)        
+    \end{tabular}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+    \begin{tabular}{ll}
+        & Ph.D in Condensed Matter Theory\\
+        & Advisor: \emph{Ying Ran}
+    \end{tabular}
+\end{minipage}
+\\[1em]
+\begin{minipage}{0.55\linewidth}
+    \begin{tabular}{ll}
+        & {\bf University of Science and Technology of China}\\
+        & 2014-2018 
+    \end{tabular}
+\end{minipage}
+\begin{minipage}{0.45\linewidth}
+    \begin{tabular}{ll}
+        & B.S. in Theoretical Physics\\
+        & { }
+    \end{tabular}
+\end{minipage}
+
+
+
+\section*{Research Interests}
+% \indent My research interests lie in many aspects of condensed matter theory, particularly electronic systems with strong interaction. Rich and novel physics such as topological collective motion and fractionalization emerge in it. These collective degrees of freedom differ fundamentally from original electronic ones and can be observed in experimentally. I am interested in frustrated magnets, fractional quantum Hall systems, and high-Tc superconductors where such fascinating physics is believed to play a central role. And classification theory is demanded in grouping such topological phases. In spite of this, there are many strongly-correlated systems where no quasiparticle is well-defined. So transport theory is another field I am interested in. Apart from the surprisingly emergent structure like AdS/CMT correspondence, more importantly this field is tightly connected with experiments and can be directly examined. 
+
+\section*{Publications}
+\begin{itemize}
+    \item \underline{X-D. Hu}, D. Xiao, and Y. Ran, \href{???}{\emph{Hyperdeterminants and Composite Fermion States in Fractional Chern Insulators}},  (submitted to PRX)
+    \item \underline{X-D. Hu}, J-H. Han, and Y. Ran, \href{https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L041106}{\emph{Supercurrent-induced anomalous thermal Hall effect as a new probe to superconducting gap anisotropy}}, Phys. Rev. B {\bf 108}, L041106 (2023)
+    \item \underline{X-D. Hu}, and Y. Ran, \href{https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.125136}{\emph{Engineering chiral topological superconductivity in twisted Ising superconductors}}, Phys. Rev. B {\bf 106}, 125136 (2022)
+    \item F. Bahrami, \underline{X-D. Hu}, Y. Du, O. I. Lebedev, C. Wang, H. Luetkens, G. Fabbris, M. J. Graf, D. Haskel, Y. Ran, and F. Tafti, \href{https://www.science.org/doi/full/10.1126/sciadv.abl5671}{\emph{First demonstration of tuning between the Kitaev and Ising limits in a honeycomb lattice}}, Sci. Adv. {\bf 8}, eabl5671 (2022)
+\end{itemize}
+
+
+\section*{Presentations}
+\begin{itemize}
+    \item \emph{Engineering Chiral Topological Superconductivity in Twisted Ising Superconductors}, Talk, APS March Meeting, 2023
+    \item \emph{Supercurrent-induced anomalous thermal Hall effect as a new probe to superconducting gap anisotropy}, Talk, online APS March Meeting, 2023
+\end{itemize}
+
+\section*{Techniques}
+    \begin{tabular}{ll}
+        Programming Languages & Julia, Python, Rust, Mathematica, Bash.
+    \end{tabular}
+
+
+\section*{Teaching Experiences}
+    I used to be teaching assistant during my journey of study, including Classical Mechanics, Electrodynamics, Quantum Mechanics I/II and Statistical Physics I/II in Boston College.
+
+% \section*{}
+
+% Footer
+\begin{center}
+  \begin{footnotesize}
+    Last updated: \today 
+  \end{footnotesize}
+\end{center}
+
+\end{document}
