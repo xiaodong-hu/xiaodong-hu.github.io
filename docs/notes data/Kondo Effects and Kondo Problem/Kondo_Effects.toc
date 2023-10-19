@@ -1,0 +1,19 @@
+\contentsline {title}{Kondo Effect and Kondo Problem}{1}{}
+\contentsline {abstract}{Abstract}{1}{}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{2}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Experimental Facts}{2}{}
+\contentsline {subsection}{\numberline {A}Minimum of Resistance}{2}{}
+\contentsline {section}{\numberline {II}Effective Hamiltonian}{2}{}
+\contentsline {subsection}{\numberline {A}Impurities in Mott Insulator: Anderson Model}{2}{}
+\contentsline {subsection}{\numberline {B}Schrieffer-Wolff Transformation to Single-occupied Effective Hamiltonian}{2}{}
+\contentsline {subsection}{\numberline {C}Spin Hamiltonian: sd Model}{5}{}
+\contentsline {section}{\numberline {III}Resistance Minimum due to Impurity Scattering}{6}{}
+\contentsline {subsection}{\numberline {A}Warm up: Green Function and Relaxation Time}{6}{}
+\contentsline {subsection}{\numberline {B}Logarithm Contribution from Spin-flip Process}{8}{}
+\contentsline {section}{\numberline {IV}Kondo Problem}{10}{}
+\contentsline {subsection}{\numberline {A}Poor Man's Scaling: Renormalization}{10}{}
+\contentsline {subsection}{\numberline {B}Schrieffer-Wolff Transformation Again}{10}{}
+\contentsline {subsection}{\numberline {C}Single-loop $\beta $-function and Asymptotic Freedom}{11}{}
+\contentsline {section}{\numberline {}References}{13}{}
