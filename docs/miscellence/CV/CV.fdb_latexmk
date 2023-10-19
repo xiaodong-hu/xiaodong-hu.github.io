@@ -1,11 +1,10 @@
 # Fdb version 4
-["xdvipdfmx"] 1697685884 "CV.xdv" "CV.pdf" "CV" 1697685884 0
-  "CV.xdv" 1697685884 4624 b6cbd05eb18c55e29851d0b6c98fe6a1 "xelatex"
+["xdvipdfmx"] 1697744048 "CV.xdv" "CV.pdf" "CV" 1697744048 0
+  "CV.xdv" 1697744048 5676 1c615b7759e0c1621d815382f894f91c "xelatex"
   (generated)
   "CV.pdf"
   (rewritten before read)
-["xelatex"] 1697685883 "/home/hxd/Dropbox/Jekyll_Page/docs/miscellence/CV/CV.tex" "CV.xdv" "CV" 1697685884 0
-  "/home/hxd/Dropbox/Jekyll_Page/docs/miscellence/CV/CV.tex" 1697685866 5413 493696aee8647af96d0f0af0259486c9 ""
+["xelatex"] 1697744047 "CV.tex" "CV.xdv" "CV" 1697744048 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1689853683 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm" 1689853683 5972 3c3b0ad6e88dfd1de0d685b95994e6d4 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1689853683 6952 fcebd9505ff25166f6bdc98f5d26741b ""
@@ -68,9 +67,9 @@
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1689853683 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1687188588 9450580 852fea00a074836b7f7db5c92f4f38d4 ""
-  "CV.aux" 1697685884 520 9c1a709c014649c32e70d4a7a33299d3 "xelatex"
-  "CV.out" 1697685884 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1697685866 5413 493696aee8647af96d0f0af0259486c9 ""
+  "CV.aux" 1697744048 520 c8df4005dd26d70143a510d6ec67caa3 "xelatex"
+  "CV.out" 1697744048 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV.tex" 1697744047 5092 2cd7ce9da3c267f2e26b021c72a282c2 ""
   (generated)
   "CV.aux"
   "CV.log"

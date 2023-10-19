@@ -19,7 +19,7 @@ email: xiaodong.hu-at-bc-dot-edu \| \[[<a href="/docs/miscellence/cv" target="_b
 
 
 ## About Me
-I am currently a Ph.D. candidate in Theoretical Condensed Matter Physics at Boston College, under the mentorship of Prof. Ying Ran. My research is primarily focused on exploring the intricate emergent phenomena in strongly-correlated systems, particularly when both symmetry and topology come into play, such as fractional Chern insulators, which serve as lattice analogues to fractional quantum Hall systems, and high-temperature superconductors. I use both analytic methods and numeric tools in my research.
+I am currently a Ph.D. candidate in Theoretical Condensed Matter Physics at Boston College, under the mentorship of Prof. Ying Ran. My research is primarily focused on exploring the intricate emergent phenomena in strongly-correlated systems, with a particular emphasis on the interplay of symmetry and topology, such as fractional Chern insulators (lattice analogue of fractional Quantum Hall effect), Kitaev materials, and high-$T_c$ superconductors. Both analytic methods and numerical tools are used in my reasearch.
 
 Outside of physics, I like to play the board game Go, go hiking, and self-learn programming techniques and abstract mathematics.
 
