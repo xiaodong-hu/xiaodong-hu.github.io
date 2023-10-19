@@ -1,5 +1,6 @@
 theme: just-the-docs # modify theme here !!!
-# remote_theme: just-the-docs
+remote_theme: just-the-docs
+color_scheme: hxd
 
 title: Xiaodong Hu's Homepage
 description: 鲸饮未吞海，剑气已横秋
