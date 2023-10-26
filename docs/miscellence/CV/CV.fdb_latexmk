@@ -1,12 +1,13 @@
 # Fdb version 4
-["xdvipdfmx"] 1697744048 "CV.xdv" "CV.pdf" "CV" 1697744048 0
-  "CV.xdv" 1697744048 5676 1c615b7759e0c1621d815382f894f91c "xelatex"
+["xdvipdfmx"] 1698347950 "CV.xdv" "CV.pdf" "CV" 1698347950 0
+  "CV.xdv" 1698347950 6204 3f6da96e54b6633160f409117aa8c6ac "xelatex"
   (generated)
   "CV.pdf"
   (rewritten before read)
-["xelatex"] 1697744047 "CV.tex" "CV.xdv" "CV" 1697744048 0
+["xelatex"] 1698347949 "CV.tex" "CV.xdv" "CV" 1698347950 0
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1689853683 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplb9d.tfm" 1689853683 5972 3c3b0ad6e88dfd1de0d685b95994e6d4 ""
+  "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9c.tfm" 1689853683 1348 f4174868edc712ccb6079f0b57dbcfdf ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9d.tfm" 1689853683 6952 fcebd9505ff25166f6bdc98f5d26741b ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplr9t.tfm" 1689853683 2284 861e5309a3e09d74071777f716a582cc ""
   "/usr/share/texmf-dist/fonts/tfm/adobe/palatino/pplri9d.tfm" 1689853683 4636 ff01db17fb5451eb75ae6574be71b347 ""
@@ -61,15 +62,16 @@
   "/usr/share/texmf-dist/tex/latex/psnfss/ot1pplx.fd" 1689853683 869 d5724c6202887be8690c71fe9df2f441 ""
   "/usr/share/texmf-dist/tex/latex/psnfss/ot1zplm.fd" 1689853683 436 5e7baa1a259bab50a2bdffad6426f38c ""
   "/usr/share/texmf-dist/tex/latex/psnfss/t1pplj.fd" 1689853683 678 8409322997570775faae75e749c76dbf ""
+  "/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd" 1689853683 634 e14923a81338a5c5b4606ab2ca590f5e ""
   "/usr/share/texmf-dist/tex/latex/refcount/refcount.sty" 1689853683 9878 9e94e8fa600d95f9c7731bb21dfb67a4 ""
   "/usr/share/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1689853683 9714 ba3194bd52c8499b3f1e3eb91d409670 ""
   "/usr/share/texmf-dist/tex/latex/sectsty/sectsty.sty" 1689853683 22423 d476012cd03f82f9475ad54ba6cd3267 ""
   "/usr/share/texmf-dist/tex/latex/url/url.sty" 1689853683 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1689853683 40684 9b9ec0b4288972636ff6a3b9c4238efc ""
   "/var/lib/texmf/web2c/xetex/xelatex.fmt" 1687188588 9450580 852fea00a074836b7f7db5c92f4f38d4 ""
-  "CV.aux" 1697744048 520 c8df4005dd26d70143a510d6ec67caa3 "xelatex"
-  "CV.out" 1697744048 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
-  "CV.tex" 1697744047 5092 2cd7ce9da3c267f2e26b021c72a282c2 ""
+  "CV.aux" 1698347950 520 c8df4005dd26d70143a510d6ec67caa3 "xelatex"
+  "CV.out" 1698347950 0 d41d8cd98f00b204e9800998ecf8427e "xelatex"
+  "CV.tex" 1698347949 5807 c1dcd941e9a7c7f95746a6231b954823 ""
   (generated)
   "CV.aux"
   "CV.log"

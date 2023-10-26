@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.6.19)  19 OCT 2023 15:34
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.6.19)  26 OCT 2023 15:19
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -267,19 +267,19 @@ Package hyperref Info: Link coloring OFF on input line 57.
 *geometry* detected driver: xetex
 *geometry* verbose mode - [ preamble ] result:
 * driver: xetex
-* paper: a4paper
+* paper: letterpaper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(56.9055pt, 450.97528pt, 89.62709pt)
-* v-part:(T,H,B)=(56.9055pt, 686.7347pt, 101.40665pt)
-* \paperwidth=597.50787pt
-* \paperheight=845.04684pt
-* \textwidth=450.97528pt
-* \textheight=686.7347pt
-* \oddsidemargin=-15.36449pt
-* \evensidemargin=-15.36449pt
-* \topmargin=-52.36449pt
+* h-part:(L,W,R)=(65.04256pt, 484.20988pt, 65.04256pt)
+* v-part:(T,H,B)=(57.81621pt, 679.33757pt, 57.81621pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=484.20988pt
+* \textheight=679.33757pt
+* \oddsidemargin=-7.22743pt
+* \evensidemargin=-7.22743pt
+* \topmargin=-51.45378pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -338,12 +338,7 @@ LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 7
 (/usr/share/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-Overfull \hbox (7.2719pt too wide) in paragraph at lines 71--76
-[][] 
- []
-
-
-Overfull \hbox (2.21pt too wide) in paragraph at lines 63--77
+Overfull \hbox (2.20999pt too wide) in paragraph at lines 63--77
 []$[]$ $[]$ 
  []
 
@@ -357,11 +352,14 @@ Overfull \hbox (2.20999pt too wide) in paragraph at lines 82--107
 []$ $[]$ 
  []
 
+LaTeX Font Info:    Trying to load font information for TS1+pplj on input line 
+115.
+(/usr/share/texmf-dist/tex/latex/psnfss/ts1pplj.fd
+File: ts1pplj.fd 2004/09/06 font definitions for TS1/pplj.
+)
 
-Overfull \hbox (2.38443pt too wide) in paragraph at lines 111--112
-\T1/pplj/m/n/10 My re-search is pri-mar-ily fo-cused on ex-plor-ing the in-tri-
-cate emer-gent phe-nom-ena in strongly-correlated
- []
+Package hyperref Warning: Suppressing link with empty target on input line 115.
+
 
 [1
 
@@ -370,12 +368,12 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 8564 strings out of 477507
- 135748 string characters out of 5830999
- 1857018 words of memory out of 5000000
- 28633 multiletter control sequences out of 15000+600000
- 534392 words of font info for 59 fonts, out of 8000000 for 9000
+ 8587 strings out of 477507
+ 136096 string characters out of 5830999
+ 1858018 words of memory out of 5000000
+ 28652 multiletter control sequences out of 15000+600000
+ 534705 words of font info for 60 fonts, out of 8000000 for 9000
  932 hyphenation exceptions out of 8191
- 72i,8n,76p,416b,378s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,76p,416b,315s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV.xdv (2 pages, 5676 bytes).
+Output written on CV.xdv (2 pages, 6204 bytes).

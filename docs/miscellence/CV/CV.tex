@@ -1,12 +1,12 @@
-\documentclass{article}
+\documentclass[letterpaper]{article}
 
 \usepackage{hyperref}
 \usepackage{geometry}
     \geometry{
-        a4paper,
-        % total={170mm,257mm},
-        left=20mm,
-        top=20mm,
+        top=0.8in,
+        bottom=0.8in,
+        left=0.9in,
+        right=0.9in
     }
 
 % Comment the following lines to use the default Computer Modern font
@@ -44,13 +44,13 @@
 \setlength\parindent{0em}
 
 % Make lists without bullets
-\renewenvironment{itemize}{
-  \begin{list}{}{
-    \setlength{\leftmargin}{1.5em}
-  }
-}{
-  \end{list}
-}
+% \renewenvironment{itemize}{
+%   \begin{list}{}{
+%     \setlength{\leftmargin}{1.5em}
+%   }
+% }{
+%   \end{list}
+% }
 
 
 \pagestyle{empty} % no title
@@ -112,7 +112,7 @@ My research is primarily focused on exploring the intricate emergent phenomena i
 
 \section*{Publications/Preprints}
 \begin{itemize}
-    \item \underline{X-D. Hu}, D. Xiao, and Y. Ran, \href{???}{\emph{Hyperdeterminants and Composite Fermion States in Fractional Chern Insulators}},  (to be submitted)
+    \item \underline{X-D. Hu}, D. Xiao, and Y. Ran, \href{}{\emph{Hyperdeterminants and Composite Fermion States in Fractional Chern Insulators}},  (to be submitted)
     \item \underline{X-D. Hu}, J-H. Han, and Y. Ran, \href{https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L041106}{\emph{Supercurrent-induced anomalous thermal Hall effect as a new probe to superconducting gap anisotropy}}, Phys. Rev. B {\bf 108}, L041106 (2023)
     \item \underline{X-D. Hu}, and Y. Ran, \href{https://journals.aps.org/prb/abstract/10.1103/PhysRevB.106.125136}{\emph{Engineering chiral topological superconductivity in twisted Ising superconductors}}, Phys. Rev. B {\bf 106}, 125136 (2022)
     \item F. Bahrami, \underline{X-D. Hu}, Y. Du, O. I. Lebedev, C. Wang, H. Luetkens, G. Fabbris, M. J. Graf, D. Haskel, Y. Ran, and F. Tafti, \href{https://www.science.org/doi/full/10.1126/sciadv.abl5671}{\emph{First demonstration of tuning between the Kitaev and Ising limits in a honeycomb lattice}}, Sci. Adv. {\bf 8}, eabl5671 (2022)
@@ -128,8 +128,17 @@ My research is primarily focused on exploring the intricate emergent phenomena i
 \section*{Techniques}
     \begin{tabular}{ll}
         Programming Languages & Julia, Rust, Python, Mathematica, C++, Bash.\\
-        DFT Tools & Quantum Espresso, ELK
+        DFT Tools & Quantum Espresso, ELK\\
     \end{tabular}
+
+\section*{Packages}
+    \begin{itemize}
+        \item \texttt{TightBinding.jl} and \texttt{TightBindMeanField.jl} for DFT-related projects and quantum transport study.
+        \item \texttt{FCI.jl}, including \texttt{LLL.jl}, \texttt{MODEL.jl}, \texttt{FCB\_ED.jl}, \texttt{CF.jl}, \texttt{CF\_MF.jl}, \texttt{CF\_TDHF.jl}, and \texttt{CF\_PROJWFC.jl} etc. for our big project of the projective construction of fractional Chern insulators.
+    \end{itemize}
+
+    % \vspace{0.5em}
+    % I have developped julia packages \texttt{TightBinding.jl} for extracting tightbinding models from Quantum Espresso, and \texttt{TightBindingMeanField.jl} for mean-field calculation for cluster of crystals 
 
 
 \section*{Teaching Experiences}
