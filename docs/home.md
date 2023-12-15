@@ -16,8 +16,6 @@ email: xiaodong.hu-at-bc-dot-edu \| \[[<a href="/docs/miscellence/cv" target="_b
 
 
 
-
-
 ## About Me
 I am currently a Ph.D. candidate in Theoretical Condensed Matter Physics at Boston College, under the mentorship of Prof. Ying Ran. My research is primarily focused on exploring the intricate emergent phenomena in strongly-correlated systems, with a particular emphasis on the interplay of symmetry and topology, such as fractional Chern insulators (lattice analogue of fractional Quantum Hall effect), Kitaev materials, and high-$T_c$ superconductors. Both analytic methods and numerical tools are used in my reasearch.
 
@@ -26,14 +24,14 @@ Outside of physics, I like to play the board game Go, go hiking, and self-learn 
 
 
 ## Recent Highlights
-We have formulated a systematic projective construction that derives strongly-correlated electronic states from nearly non-interacting composite-fermion states. Interestingly, the electronic states generated through this approach diverge from the traditional Jain/Laughlin's states, revealing instead a new mathematical object known as [Combinatorial Hyperdeterminants](https://en.wikipedia.org/wiki/Hyperdeterminant).
+We have formulated a systematic projective construction for fractional Chern Insulators (FCI). Interestingly, the electronic states obtained from projection of composite-fermion states recovers Jain's famous wave function in traditional Galilean-invariant Landau levels, but turns out to be different in general, revealing instead a mathematical object known as the [Combinatorial Hyperdeterminants](https://en.wikipedia.org/wiki/Hyperdeterminant).
 
-Benchmark of our states and Jain/Laughlin's ones with the exact diagonalization (ED) clearly demonstrate the superiority of our approach for studying the fractional quantum Hall effect in lattice systems, where continuous translational and rotational symmetries are reduced to discrete counterparts. Most notably, **in the case of *fractional Chern insulators*, the overlaps between our derived states and those obtained from ED consistently outperform those of Jain/Laughlin's states across the entire parameter space!**
+Benchmark of our states and Jain/Laughlin's states with the exact diagonalization (ED) clearly demonstrate the superiority of our approach for studying FCI, where both translation and rotation symmetries are *discrete*. Most notably, **we found that the overlaps between our derived states and those obtained from ED consistently outperform those of Jain/Laughlin's states across the entire parameter space!**
 
 
 
 ## Publications/Preprints
-- <ins>X-D. Hu</ins>, D. Xiao, and Y. Ran, *Hyperdeterminants and Composite Fermion States in Fractional Chern Insulators*, (to be submitted) \[[]()\] 
+- <ins>X-D. Hu</ins>, D. Xiao, and Y. Ran, *Hyperdeterminants and Composite Fermion States in Fractional Chern Insulators*, (submitted to PRX) \[[arXiv](https://arxiv.org/abs/2312.00636v2)\] 
 
 - <ins>X-D. Hu</ins>, J-H. Han, and Y. Ran, *Supercurrent-induced anomalous thermal Hall effect as a new probe to superconducting gap anisotropy*, [Phys. Rev. B **108**, L041106 (2023)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.108.L041106) \[[arXiv](https://arxiv.org/abs/2211.16651v2)\]
 
