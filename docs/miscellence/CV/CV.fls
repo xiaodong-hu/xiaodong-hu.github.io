@@ -1,7 +1,7 @@
 PWD /home/hxd/Dropbox/Application for postdoc/CV
 INPUT /usr/share/texmf-dist/web2c/texmf.cnf
 INPUT /var/lib/texmf/web2c/xetex/xelatex.fmt
-INPUT CV.tex
+INPUT /home/hxd/Dropbox/Application for postdoc/CV/CV.tex
 OUTPUT CV.log
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
 INPUT /usr/share/texmf-dist/tex/latex/base/article.cls
