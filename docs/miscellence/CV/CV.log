@@ -1,10 +1,10 @@
-This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.6.19)  12 DEC 2023 15:12
+This is XeTeX, Version 3.141592653-2.6-0.999995 (TeX Live 2023/Arch Linux) (preloaded format=xelatex 2023.6.19)  9 MAR 2024 17:44
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"/home/hxd/Dropbox/Application for postdoc/CV/CV.tex"
-(/home/hxd/Dropbox/Application for postdoc/CV/CV.tex
+**/home/hxd/Dropbox/Application/CV/CV.tex
+(/home/hxd/Dropbox/Application/CV/CV.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-02-22> (/usr/share/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2022/07/02 v1.4n Standard LaTeX document class
@@ -305,11 +305,11 @@ Package rerunfilecheck Info: File `CV.out' has not changed.
  ) 
 Here is how much of TeX's memory you used:
  8588 strings out of 477507
- 136229 string characters out of 5830999
+ 136193 string characters out of 5830999
  1857018 words of memory out of 5000000
  28652 multiletter control sequences out of 15000+600000
  534705 words of font info for 60 fonts, out of 8000000 for 9000
  932 hyphenation exceptions out of 8191
- 72i,8n,76p,468b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 72i,8n,76p,454b,387s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on CV.xdv (2 pages, 6400 bytes).
+Output written on CV.xdv (2 pages, 6712 bytes).
