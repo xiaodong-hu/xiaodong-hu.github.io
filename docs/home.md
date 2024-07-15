@@ -8,7 +8,7 @@ Xiaodong Hu's Homepage
 {: .fs-9 }
 {: .fw-500 }
 {: .lh-0 }
-email: xiaodong.hu-at-bc-dot-edu \| \[[<a href="/docs/miscellence/cv" target="_blank">View CV</a>]()\]
+email: hxd-dot-phys-at-gmail-dot-com \| \[[<a href="/docs/miscellence/cv" target="_blank">View CV</a>]()\]
 
 [arXiv](http://arxiv.org/a/hu_x_3) \| [Google Scholar](https://scholar.google.com/citations?user=yfD3lEUAAAAJ&hl=en) \| [GitHub](https://github.com/xiaodong-hu) \| [zhihu](https://www.zhihu.com/people/xiaodong.hu)
 {: .fs-5 }
