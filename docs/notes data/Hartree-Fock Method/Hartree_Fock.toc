@@ -1,0 +1,13 @@
+\contentsline {title}{Time-dependent Hartree-Fock Approximation for Magnetoroton Spectrum above\\Composite-Fermion Ground State}{1}{}
+\contentsline {abstract}{Abstract}{1}{}
+\tocdepth@munge 
+\contentsline {section}{\numberline {}Contents}{1}{}
+\tocdepth@restore 
+\contentsline {section}{\numberline {I}Hartree-Fock}{1}{}
+\contentsline {subsection}{\numberline {A}Roothaan Equation}{2}{}
+\contentsline {subsubsection}{\numberline {1}Mean-field Hamiltonian and Energy}{2}{}
+\contentsline {subsubsection}{\numberline {2}Variation with Lagrangian Multiplier}{3}{}
+\contentsline {subsection}{\numberline {B}Stability: Thouless Representation}{3}{}
+\contentsline {section}{\numberline {II}TDHF and Collective Excitation of Magnetoroton}{3}{}
+\contentsline {subsection}{\numberline {A}Collective Spectrum}{3}{}
+\contentsline {section}{\numberline {}References}{3}{}

@@ -1,0 +1,143 @@
+\documentclass[aps,prb,nofootinbib,reprint,onecolumn]{revtex4-2}
+
+\usepackage{amsmath,amssymb,amsfonts,mathrsfs,bm,dsfont}
+\usepackage{slashed}
+\usepackage{enumerate}
+\usepackage{enumitem} % customize itemize, see https://ctan.org/tex-archive/macros/latex/contrib/enumitem/
+\usepackage[all]{xy}
+\usepackage{cleveref} % multiple equation ref, see https://tex.stackexchange.com/questions/314217/how-i-can-refer-multiple-equation-in-latex?rq=1
+\usepackage{graphics}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{tikz}
+
+\allowdisplaybreaks[4] % allow align environment to break the page
+
+\newcommand*\dd{\mathop{}\!\mathrm{d}}
+
+\def\Im{\mathop{\mathsf{Im}}}
+\def\Re{\mathop{\mathsf{Re}}}
+\def\L{\mathcal{L}}
+\def\H{\mathcal{H}}
+
+\begin{document}
+\title{Time-dependent Hartree-Fock Approximation for Magnetoroton Spectrum above\\Composite-Fermion Ground State}
+\author{Xiaodong Hu}
+\email{\texttt{xiaodong.hu@bc.edu}}
+\affiliation{Department of Physics, Boston College, Chestnut Hill, Massachusetts 02467, USA}
+\date{\today}
+
+\begin{abstract}
+	In this note, we will give a quick review on the general setup of Hartree-Fock methods, particularly the iterative \emph{Roothaan equation}. We will work in a second-quantized language. 
+
+% \par
+% \hfill\par
+% {\centering \emph{息徒兰圃，秣马华山。流磻平皋，垂纶长川。目送归鸿，手挥五弦。俯仰自得，游心太玄。} \\[0.5em]}
+% \hfill------ 嵇康「四言赠兄秀才如军诗十八首」
+\end{abstract}
+
+\maketitle
+\tableofcontents
+
+\section{Hartree-Fock}
+	The general setup of Hartre-Fock mean-field approximation is that, given $N$ \emph{nearly non-interacting} fermions, the many-body effect of the $N$-particle wave function will be dominated by the single-particle fermionic exchange effect. Thus Slater determinant of $N$ \emph{orthonormal} Hartree-Fock single-particle wave functions turns out to be a good approximation for the many-particle wave functions
+	\begin{equation*}
+		\Psi(\bm r_1,\cdots,\bm r_N)=\dfrac{1}{\sqrt{N!}}\left|\begin{array}{ccc}
+			\psi_1(\bm r_1) &\cdots &\psi_N(\bm r_1)\\
+			\vdots & \ddots & \vdots\\
+			\psi_1(\bm r_N) &\cdots &\psi_N(\bm r_N)\\
+		\end{array}\right|,\quad\text{or }|\Psi_{HF}\rangle\equiv\prod_{\alpha=1}^N C_\alpha^\dagger|0\rangle
+	\end{equation*}
+	with $\alpha$ runs over \emph{both} momentum, spin and internal discrete indices like band/valley/orbital etc.
+
+	Here HF single-particles are truely occupied, as is constructed in the second quantized form. In terms of the \emph{single-particle density operator} $\hat \rho=\sum_\alpha |\psi_\alpha\rangle\langle\psi_\alpha|$, we have the single-particle density matrix $P_{\alpha\beta}\equiv\langle\psi_\alpha|\hat \rho|\psi_\beta\rangle=\delta_{\alpha\beta}$ in these HF single-particle states. In fact, clearly such density matrix is nothing but the two-point correlator
+	\begin{align*}
+		P_{{\color{red}\alpha\beta}}\equiv\langle\Psi_{HF}|C_{{\color{red}\beta}}^\dagger C_{\color{red}\alpha}|\Psi_{HF}\rangle.
+	\end{align*}
+	The order of subsctipt is important here! Inserting the identity operator resolution within the Fock space $\mathds1=\sum_{\alpha_1}|\alpha_1\rangle\langle\alpha_1|+\sum_{\alpha_1\alpha_2}|\alpha_1\alpha_2\rangle\langle\alpha_1\alpha_2|+\cdots$ to the middle of $f$-bilinear and noting that only $(N-1)$-particle states contribute, we get
+	\begin{align*}
+		P_{\alpha\beta}&=\sum_{\alpha_1,\cdots,\alpha_{N-1}}\langle\Psi_{HF}|C_\beta^\dagger|\alpha_1,\cdots,\alpha_{N-1}\rangle\langle \alpha_1,\cdots,\alpha_{N-1}|C_\alpha|\Psi_{HF}\rangle\\
+		&=\sum_{\alpha_1,\cdots,\alpha_{N-1}}\langle\alpha,\alpha_1,\cdots,\alpha_{N-1}|\Psi_{HF}\rangle\langle\Psi_{HF}|\beta,\alpha_1,\cdots,\alpha_{N-1}\rangle\equiv\langle\alpha|\mathrm{tr}_{N-1}\{\hat\rho^N\}|\beta\rangle
+	\end{align*}
+	which is exactly the definition of single-particle density matrix --- by tracing out the $(N-1)$-particle states for the many-body (but \emph{pure state}) density matrix $\hat\rho^N\equiv|\Psi_{HF}\rangle\langle\Psi_{HF}|$.
+
+	The left question is, \emph{what are these $N$ Hartree-Fock single-particle states look like?}
+
+	\subsection{Roothaan Equation}
+		Suppose we have a set of $M$ \emph{known} states $\{\phi_i\}$ in hand ($M\geq N$ and hereafter we suppose they are orthonormal), we can always try to expand the above $N$ HF single-particle states with these basis --- as long as $\{\phi_i\}$ is complete. However, usually completeness means \emph{countable infinite} number of basis. Due to computation limitation, in practice we will always truncate such expansion with \emph{finite} $M$ basis
+		\begin{align*}
+			|\psi_\alpha\rangle=\sum_{i=1}^M d_{\color{red}i \alpha }|\phi_i\rangle,\quad\text{or }C_\alpha^\dagger=\sum_i d_{\color{red}i \alpha} f_i^\dagger.
+		\end{align*}
+		Here we transpoes the expansion matrix by default for further convenience. The density matrix in the new basis can be immediately obtained
+		\begin{equation*}
+			P_{ij}\equiv\langle\phi_i|\hat\rho|\phi_j\rangle=\sum_{\alpha\beta}\langle\phi_i|\psi_\alpha\rangle\langle\psi_\alpha|\hat\rho|\psi_\beta\rangle\langle\psi_\beta|\phi_j\rangle=\sum_{\alpha,\text{\color{red}filled}} d_{j\alpha}^*d_{i\alpha}.
+		\end{equation*}
+		This can also be directly obtained from in the second-quantized language
+		\begin{equation*}
+			P_{\color{red}ij}\equiv\langle\Psi_{HF}| f_{{\color{red}j}}^\dagger f_{{\color{red}i}}|\Psi_{HF}\rangle=\cdots.
+		\end{equation*}
+
+		The left task is to find the optimal choice of the expansion coefficients $d_{i\alpha}$ in terms of the \emph{variation principle}.
+
+			\subsubsection{Mean-field Hamiltonian and Energy}
+				For most physical model, translation symmetry is present and momentum is a good quantum number. From now on we will explicit separate out the momentum-dependence so that the full quadratic Hamiltonian in terms of the creation/annihilation operators in hand reads
+				\begin{equation}\label{full Hamiltonian}
+					\hat H=\sum_{\bm k,ij} f_{\bm k,\alpha}^\dagger [\kappa(\bm k)]_{ij} f_{\bm k,j} + \sum_{\bm q}\hat\rho_e(\bm q)V_q\hat\rho_e(-\bm q),\quad\text{with charge density }\hat\rho_e(\bm q)\equiv\sum_{\bm k,ij}f_{\bm k,i}^\dagger [\varrho_{\bm q}(\bm k)]_{ij} f_{\bm{k+q},j}.
+				\end{equation}
+				Hermicity of the Coulomb interaction gives an extra constraint on the matrix coefficient of the charge density operator
+				\begin{equation}\label{charge density matrix coefficient}
+					[\varrho_{\bm q}(\bm k)]^\dagger\equiv[\varrho_{-\bm q}([\bm k+\bm q])],
+				\end{equation}
+				where $[\cdots]$ in the argument means modulo with the composite-fermion BZ.
+
+				As a result, we get the mean-field Hamiltonian
+				\begin{equation}\label{mean-field Hamiltonian}
+					\hat H_{HF}=\sum_{\bm k,ij}f_{\bm k,i}^\dagger\bigg\{\kappa(\bm k)+\mathcal{HF}\{P\}(\bm k)\bigg\}_{ij}\,f_{\bm k,j},
+				\end{equation}
+				with the \emph{generalized Hartree-Fock functional} acting on a matrix-valued function carrying momentum-$\bm q$ defined in my \texttt{neat\_TDHF.ipynb} notes that
+				\begin{align}\label{generalized Hartree Fock functional}
+					\mathcal{HF}\{M_{\bm q}\}(\bm k)&:=(\mathcal H+\mathcal F)\{M_q\}(\bm k)\nonumber\\
+					&=\sum_{\bm G} V_{q+G}\varrho_{\bm{q+G}}(\bm k)\sum_{\bm k'}\mathop{\mathrm{tr}}\bigg\{\varrho_{\bm{q+G}}^\dagger\cdot M_{\bm q}\bigg\}(\bm k') - \sum_{\bm q'} V_{q'}\varrho_{\bm q'}(\bm k)M_{\bm q}(\bm{k+q})\varrho_{\bm q'}(\bm{k+q})^\dagger.
+				\end{align}
+				And the mean-field energy reads
+				\begin{equation}\label{mean-field Energy}
+					E_{MF}=\sum_{\bm k, ij}\bigg\{P_{ji}\big(\kappa +\mathcal{HF}\{P\}\big)_{ij}\bigg\}(\bm k)=\sum_{\bm k}\sum_{ij}\bigg\{\sum_\alpha d_{i\alpha}^* d_{j\alpha}\big(\kappa +\mathcal{HF}\{P\}\big)\bigg\}(\bm k)
+				\end{equation}
+
+			\subsubsection{Variation with Lagrangian Multiplier}
+				For \emph{each} HF single-particle states, we have an orthogonality condition $1=\langle\psi_\alpha|\psi_\alpha\rangle=\sum_i d_{i\alpha}^* d_{i\alpha}$. So there are $N$-independent variation constraint and we can handle them with Lagrangian multipliers as $\varepsilon_\alpha$. To sum up, we can define the functional
+				\begin{equation*}
+					\mathcal L[d,d^*]:=\sum_{ij}\bigg\{\sum_\alpha d_{i\alpha}^* d_{j\alpha}\big(\kappa +\mathcal{HF}\{P\}\big)\bigg\}-\sum_\alpha \varepsilon_\alpha\bigg(\sum_i d_{i\alpha}^* d_{i\alpha}-1\bigg).
+				\end{equation*}
+				Saddle-point condition $\delta\mathcal L/\delta d_{i\alpha}^*=0$ then gives $i$ equations
+				\begin{align}
+					\sum_j\big(\kappa +\mathcal{HF}\{P\}\big)_{ij}d_{j\alpha}&=d_{i\alpha}\varepsilon_\alpha
+				\end{align}
+				or in short matrix form, the iterative \emph{Roothaan equation}
+				\begin{equation}\label{Roothaan Equation}
+					{\color{red}\bm{F[d]d=d\varepsilon},\quad\text{with the $M\times M$ Fock operator }\bm F\equiv\kappa+\mathcal{HF}\{P\}}.
+				\end{equation}
+				Equation \eqref{Roothaan Equation} is nonlinear because the Fock operator $\bm F$ itself also depends on the expansion coefficient $d_{i\alpha}$. In practice it has to be solved iteratively: starting with a guess expansion $d_{i,\alpha}^{(0)}$, calculating the Fock operator $\bm{F[d]}$, then obtain a new expansion $d_{i,\alpha}^{(1)}$ from the eigenvector and so on. 
+
+	\subsection{Stability: Thouless Representation}
+
+\section{TDHF and Collective Excitation of Magnetoroton}
+	\subsection{Collective Spectrum}
+		The general definition of a particle, in both high-energy and condensed-matter community is the \textbf{pole of Green functions}. Particularly, the particle-hole excitation spectrum can be obtained from the dynamics of the Green function constructed from the given PH bilinear
+		\begin{equation}\label{PH bilinear}
+			\hat O_{\bm q}\equiv\sum_{\alpha\beta}\hat O_{\bm q;\alpha\beta}=\sum_{\bm k,\alpha\beta}C_{\bm k,\alpha}^\dagger[\phi_{\bm q}(\bm k)]_{\alpha\beta}C_{\bm k+\bm q,\beta}.
+		\end{equation}
+		
+		For each species of PH bilinear $\hat O_{q;\alpha\beta}$, we can evaluate the dynamics of the Green function
+		\begin{align*}
+			-i\dfrac{\partial }{\partial t}\hat G_{\alpha\beta;\mu\nu}(\bm q,t)&\equiv-i\dfrac{\partial }{\partial t}\langle\mathcal T\hat O_{\alpha\beta}(\bm q,t)\hat O_{\mu\nu}(-\bm q;0)\rangle=-i\langle\mathcal T{\color{red}[\hat H,\hat O_{\bm q;\alpha\beta}]}\hat O_{-\bm q;\mu\nu}\rangle-\delta(t)\langle[\hat O_{\bm q;\alpha\beta},\hat O_{-\bm q;\mu\nu}]\rangle,
+		\end{align*}
+		with the last unimportant \emph{source term}. \textbf{What TDHF does is to approximate (with Wick's contraction) the commutator $[\hat H,\hat O_{\bm q;\alpha\beta}]$ with \emph{original bilinears}, so that the RHS is still linear combination of Green functions}
+		\begin{equation*}
+			\langle[\hat H,\hat O_{\bm q;\alpha\beta}]\rangle_{\text{TDHF}}=\sum_{\mu\nu}\mathcal H_{\bm q;\alpha\beta,\mu\nu}\hat O_{\bm q;\mu\nu}
+		\end{equation*}
+		\textbf{so that the pole of the Green function could be immediately obtained from diagonalization of the matrix $\mathcal H$ of dimension $\dim(\alpha)^4$ for each $\bm q$}.
+
+
+
+\bibliography{hxd}
+\end{document}

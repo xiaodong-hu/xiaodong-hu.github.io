@@ -1,0 +1,149 @@
+{"0": {
+    "doc": "Effecive Field Theory of the EM Response of FQHE Systems",
+    "title": "Effecive Field Theory of the EM Response of FQHE Systems",
+    "content": "D.T. Son develop the non-relativistic general coordinate transformations for Galilean-invariant system under EM in a curved spacetime, and propose a systematic EFT. The resulting EM response includes not only the normal quantized Hall response, but also the intriguing Hall viscosity, providing an experimental proposal to measure the Hall viscosity . ",
+    "url": "/docs/notes/physics/EFT%20of%20the%20EM%20response%20of%20FQHE.html",
+    
+    "relUrl": "/docs/notes/physics/EFT%20of%20the%20EM%20response%20of%20FQHE.html"
+  },"1": {
+    "doc": "Linear Response - Adiabatic and Isothermal",
+    "title": "Linear Response - Adiabatic and Isothermal",
+    "content": "We also provide the exact proof on the cancellation of diamagnetic current’s contribution for quadratic-band systems. ",
+    "url": "/docs/notes/physics/adiabatic%20and%20isothermal%20transport.html",
+    
+    "relUrl": "/docs/notes/physics/adiabatic%20and%20isothermal%20transport.html"
+  },"2": {
+    "doc": "Hydrodynamic Transport for Critically Dopped Cuprates",
+    "title": "Hydrodynamic Transport for Critically Dopped Cuprates",
+    "content": "Xournalpp notes only, no $\\LaTeX$ version. ",
+    "url": "/docs/notes/physics/cuprates%20hydrodynamics.html",
+    
+    "relUrl": "/docs/notes/physics/cuprates%20hydrodynamics.html"
+  },"3": {
+    "doc": "CV",
+    "title": "CV",
+    "content": "This is CV: . ",
+    "url": "/docs/miscellence/cv.html",
+    
+    "relUrl": "/docs/miscellence/cv.html"
+  },"4": {
+    "doc": "Adiabatic Evolution of Re-Parameterization",
+    "title": "Adiabatic Evolution of Re-Parameterization",
+    "content": " ",
+    "url": "/docs/notes/physics/geometric%20understanding%20of%20Hall%20viscosity.html",
+    
+    "relUrl": "/docs/notes/physics/geometric%20understanding%20of%20Hall%20viscosity.html"
+  },"5": {
+    "doc": "Go Engine",
+    "title": "Go Engine",
+    "content": "I am trying to develop a go engine in rust. My goal is to develop a low-energy effective description of Go, for examply by search for the effective Hamiltonian, rather than simply implementing the brute-force RNN network, without any understanding of the trainning result. The progress can be found in my repo rotax (.py and .rs) . ",
+    "url": "/docs/techniques/Rust/go_engine.html",
+    
+    "relUrl": "/docs/techniques/Rust/go_engine.html"
+  },"6": {
+    "doc": "Home",
+    "title": "About Me",
+    "content": "I am currently a postdoc doing research in theoretical condensed matter physics at Univeristy of Washington. I earned my Ph.D. degree at Boston College under the mentorship of Prof. Ying Ran. My research is primarily focused on exploring the intricate emergent phenomena in strongly-correlated systems, with a particular emphasis on the interplay of symmetry and topology in moire system, particularly twisted transition metal dichalcognides (tTMD). Both analytic methods and numerical tools are used in my reasearch. Outside of physics, I like to play the board game Go, go hiking, and self-learn programming techniques and abstract mathematics. ",
+    "url": "/#about-me",
+    
+    "relUrl": "/#about-me"
+  },"7": {
+    "doc": "Home",
+    "title": "Recent Highlights",
+    "content": "We have formulated a systematic projective construction for fractional Chern Insulators (FCI). Interestingly, the electronic states obtained from projection of composite-fermion states recovers Jain’s famous wave function in traditional Galilean-invariant Landau levels, but turns out to be different in general, revealing instead a mathematical object known as the Combinatorial Hyperdeterminants. Benchmark of our states and Jain/Laughlin’s states with the exact diagonalization (ED) clearly demonstrate the superiority of our approach for studying FCI, where both translation and rotation symmetries are discrete. Most notably, after a composite-fermion level Hartree-Fock mean-field optimization (rather than an electronic optimization), we found that the overlaps between our hyperdeterminant states and those obtained from ED consistently outperform those of Jain/Laughlin’s states across the entire parameter space! . ",
+    "url": "/#recent-highlights",
+    
+    "relUrl": "/#recent-highlights"
+  },"8": {
+    "doc": "Home",
+    "title": "Publications/Preprints",
+    "content": ". | X-D. Hu, D. Xiao, and Y. Ran, Hyperdeterminants and Composite Fermion States in Fractional Chern Insulators, Phys. Rev. B 109, 245125 (2024), Editor’s Suggestion**, [arXiv] . | X-D. Hu, J-H. Han, and Y. Ran, Supercurrent-induced anomalous thermal Hall effect as a new probe to superconducting gap anisotropy, Phys. Rev. B 108, L041106 (2023) [arXiv] . | X-D. Hu, and Y. Ran, Engineering chiral topological superconductivity in twisted Ising superconductors, Phys. Rev. B 106, 125136 (2022) [arXiv] . | F. Bahrami, X-D. Hu, Y. Du, O. I. Lebedev, C. Wang, H. Luetkens, G. Fabbris, M. J. Graf, D. Haskel, Y. Ran, and F. Tafti, First demonstration of tuning between the Kitaev and Ising limits in a honeycomb lattice, Sci. Adv. 8, eabl5671 (2022) [arXiv] . | . ",
+    "url": "/#publicationspreprints",
+    
+    "relUrl": "/#publicationspreprints"
+  },"9": {
+    "doc": "Home",
+    "title": "Presentations",
+    "content": ". | Engineering Chiral Topological Superconductivity in Twisted Ising Superconductors, Talk, APS Meeting, March 2023 | Supercurrent-induced anomalous thermal Hall effect as a new probe to superconducting gap anisotropy, Online Talk, APS Meeting, March 2023 | . ",
+    "url": "/#presentations",
+    
+    "relUrl": "/#presentations"
+  },"10": {
+    "doc": "Home",
+    "title": "Home",
+    "content": "Xiaodong Hu’s Homepage . email: hxd-dot-phys-at-gmail-dot-com | [View CV] . arXiv | Google Scholar | GitHub | zhihu . ",
+    "url": "/",
+    
+    "relUrl": "/"
+  },"11": {
+    "doc": "Kapustin's Thoery on Thermal Transport",
+    "title": "Kapustin's Thoery on Thermal Transport",
+    "content": "We make use of the UV-complete transport theory developed by Kapustin to provide the exact proof for the thermal Hall formula for magnons. | The most tricky part is about the energy magnetization. | . ",
+    "url": "/docs/notes/physics/kapustin's%20theory%20on%20thermal%20transport.html",
+    
+    "relUrl": "/docs/notes/physics/kapustin's%20theory%20on%20thermal%20transport.html"
+  },"12": {
+    "doc": "Kondo Effect and Kondo Problem",
+    "title": "Kondo Effect and Kondo Problem",
+    "content": "This note give detailed calculation on . | what’s the low-energy description of the ferromagnetic impurities to itinerate electrons? — the famous s-d model | how to explain the lifting tail of the $\\rho$-$T$ curve in low temperature? — spin-flip scatterings give logarithmic correction | Such logarithmic correction brings in an even more serious problem in the limit $T\\rightarrow0$K: : the resistivity of dopped alloys now will divergence!. SO how to reconcile this puzzle? — Anderson’s pool man scaling | . ",
+    "url": "/docs/notes/physics/kondo%20effect.html",
+    
+    "relUrl": "/docs/notes/physics/kondo%20effect.html"
+  },"13": {
+    "doc": "LaTeX Test",
+    "title": "LaTeX Test",
+    "content": "The Stokes formula on manifold $\\mathcal M$ reads \\begin{equation}\\label{eq:1} \\int_{\\mathcal M} \\mathrm{d}\\omega = \\int_{\\partial\\mathcal M}\\omega. \\end{equation} . Haldane-Rezayi wave function takes the form of \\(\\psi_e(z)=f(z)e^{-y^2/2\\ell},\\) where \\begin{align}\\label{eq:2} f(z)=e^{ikz}\\prod_{\\nu=1}^{N_s}{\\color{red}\\boldsymbol\\vartheta\\left(\\pi\\dfrac{z-z_\\nu}{L_1}\\middle|\\tau\\right)} \\end{align} is composed of the elliptic $\\vartheta$-functions. This is reference to Eq.\\eqref{eq:1} and Eq.\\eqref{eq:2}. ",
+    "url": "/docs/miscellence/latex_test.html",
+    
+    "relUrl": "/docs/miscellence/latex_test.html"
+  },"14": {
+    "doc": "Linear Algebra in Rust",
+    "title": "Linear Algebra in Rust",
+    "content": "The huge mememory consumption of julia code for our project of fractional Chern insulator once pushed me to rust. The smooth conversion between these two languages really surprise me, probably due to the modern desgin of rust syntax. However, I have to say that playing with complex numbers and tensors in rust is almost a nightmare, due to the ugly design of the interfraces for the current implementation of linear algebra libs, including . | nalgebra | ndarray-linalg | . I really want a user-friendly linear algebra like julia (which I assume to be the best among all programming languages, particularly far exceeding the famous numpy), so want to desgin one myself. ",
+    "url": "/docs/techniques/Rust/linear_algebra_lib.html",
+    
+    "relUrl": "/docs/techniques/Rust/linear_algebra_lib.html"
+  },"15": {
+    "doc": "Luttinger's Gravitational Viewpoint on Thermal Transport",
+    "title": "Luttinger's Gravitational Viewpoint on Thermal Transport",
+    "content": " ",
+    "url": "/docs/notes/physics/luttinger's%20gravitational%20transport.html",
+    
+    "relUrl": "/docs/notes/physics/luttinger's%20gravitational%20transport.html"
+  },"16": {
+    "doc": "Mathematica in Rust",
+    "title": "Mathematica in Rust",
+    "content": "I am interested in how mathematica is working, particularly on how to design the fast algorithm for syntax tree processing, so is trying to develop a library for symbolic computation in rust. This project could serve as a good change to learn rust. ",
+    "url": "/docs/techniques/Rust/mathematica_rs.html",
+    
+    "relUrl": "/docs/techniques/Rust/mathematica_rs.html"
+  },"17": {
+    "doc": "Memory Matrix Formalism for Hydrodynamic Transport",
+    "title": "Memory Matrix Formalism for Hydrodynamic Transport",
+    "content": " ",
+    "url": "/docs/notes/physics/memory%20matrix.html",
+    
+    "relUrl": "/docs/notes/physics/memory%20matrix.html"
+  },"18": {
+    "doc": "Miscellence",
+    "title": "Miscellence",
+    "content": "Below are miscellence contents: . ",
+    "url": "/docs/miscellence.html",
+    
+    "relUrl": "/docs/miscellence.html"
+  },"19": {
+    "doc": "Notes",
+    "title": "Notes",
+    "content": "List of Notes: . ",
+    "url": "/docs/notes.html",
+    
+    "relUrl": "/docs/notes.html"
+  },"20": {
+    "doc": "Techniques",
+    "title": "Techniques",
+    "content": "This is techniques page: . ",
+    "url": "/docs/techniques.html",
+    
+    "relUrl": "/docs/techniques.html"
+  }
+}
