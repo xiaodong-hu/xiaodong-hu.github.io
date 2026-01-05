@@ -6,3 +6,8 @@ title: Xiaodong Hu's Homepage
 description: 鲸饮未吞海，剑气已横秋
 
 url: https://xiaodong-hu.github.io
+
+sass:
+  quiet_deps: true
+  silence_deprecations:
+    - import
