@@ -5,7 +5,7 @@ gem "erb"    # Required for Ruby 3.4+
 gem "logger" # Required for Ruby 3.4+
 gem "csv"    # Required for Ruby 3.4+
 
-
+gem "minima"
 
 gem "jekyll"
 
@@ -17,3 +17,5 @@ end
 
 
 gem "just-the-docs"
+
+gem "openssl", "~> 3.3"
